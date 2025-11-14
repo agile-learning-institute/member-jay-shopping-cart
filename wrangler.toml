@@ -4,12 +4,3 @@
 
 name = "shopping-cart-jaycenusa"
 compatibility_date = "2025-11-06"
-
-[build]
-# This command should generate a file (e.g. src/deploy-timestamp.js or src/deploy-timestamp.json)
-# that your worker can import/read at runtime. Example script: ./scripts/generate-timestamp.js
-command = "node ./scripts/generate-timestamp.js && npm run build"
-
-# Optional: put runtime globals here if you want a static timestamp (not recommended for dynamic deploys)
-# [vars]
-# DEPLOY_TIMESTAMP = "2025-11-06T00:00:00Z"
